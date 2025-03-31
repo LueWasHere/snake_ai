@@ -1,0 +1,2 @@
+# Python 3.12.3
+tensorflow==2.19.0
