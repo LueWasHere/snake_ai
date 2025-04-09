@@ -10,21 +10,18 @@ This project utilizes deep learning techniques to train an artificial intelligen
 Training & Evaluation: The model is trained over several episodes, and its performance is evaluated based on the score it achieves.
 
 Requirements
-* Python 3.x
-* TensorFlow (for deep learning)
+* Python 3.12.3
 * NumPy
 * Matplotlib (for visualizing the training progress)
 
 Installation
 1. Clone the repository
 ```bash
-Copy
 git clone https://github.com/yourusername/snake-ai.git
 cd snake-ai
 ```
 2. Install dependencies
 ```bash
-Copy
 pip install -r requirements.txt
 ```
 ## Usage
@@ -33,7 +30,6 @@ The game environment is implemented using Python, and the Snake AI interacts wit
 
 To run the Snake game with the trained model:
 ```bash
-Copy
 python run_game.py
 ```
 This will start the game, and the AI will play the game using its trained policy.
